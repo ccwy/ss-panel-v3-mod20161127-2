@@ -72,15 +72,15 @@
 											<dt>余额：<font color="blue">{$user->money} 元</font></dt>	
 
 										
-										
+									
 											{if $user->class==0}
-											<dt>等级：<font color="blue">免费用户</font></dt>
+											<dt>等级：<font color="blue">账号未激活，你看不到节点，请充值后到商店购买套餐来激活账号或联系管理员</font></dt>
 											{/if}
 											{if $user->class==1}
 											<dt>等级：<font color="blue">老用户</font></dt>
 											{/if}
 											{if $user->class==2}
-											<dt>等级：<font color="blue">无限期用户</font></dt>
+											<dt>等级：<font color="blue">云霄阁1号老用户</font></dt>
 											{/if}
 											
 											{if $user->class==3}
@@ -198,11 +198,12 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">签到获取流量</p>
-											<p>流量不会重置，可以通过签到获取流量。</p>
-
+										<p class="card-heading">签到获取流量，签不签到没啥意义。。。</p>
+											
 										
-										
+											<p>每天可以签到一次。您可以点击按钮或者摇动手机来签到。</p>
+											
+											<p>每次签到可以获取{$config['checkinMin']}~{$config['checkinMax']}MB流量。</p>
 																						
 											<p>上次使用时间：<code>{$user->lastSsTime()}</code></p>
 
