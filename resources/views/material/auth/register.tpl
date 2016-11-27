@@ -25,7 +25,7 @@
 										<div class="form-group form-group-label">
 											<div class="row">
 												<div class="col-md-10 col-md-push-1">
-													<label class="floating-label" for="name">昵称</label>
+													<label class="floating-label" for="name">昵称(必须输入一个）</label>
 													<input class="form-control" id="name" type="text">
 												</div>
 											</div>
@@ -34,7 +34,7 @@
 										<div class="form-group form-group-label">
 											<div class="row">
 												<div class="col-md-10 col-md-push-1">
-													<label class="floating-label" for="email">邮箱</label>
+													<label class="floating-label" for="email">邮箱（不能是QQ邮箱）</label>
 													<input class="form-control" id="email" type="text">
 												</div>
 											</div>
