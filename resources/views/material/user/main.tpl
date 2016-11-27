@@ -307,19 +307,23 @@
 							</li>
 						</ul>
 
-						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_detect">审计</a>
+						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_detect">审查</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_detect">
-							<li><a href="/user/detect"><i class="icon icon-lg">account_balance</i>&nbsp;审计规则</a></li>
-							<li><a href="/user/detect/log"><i class="icon icon-lg">assignment_late</i>&nbsp;审计记录</a></li>
+							<li><a href="/user/detect"><i class="icon icon-lg">account_balance</i>&nbsp;审查规则</a></li>
+							<li><a href="/user/detect/log"><i class="icon icon-lg">assignment_late</i>&nbsp;违规记录</a></li>
 						</ul>
 						
-						
-
 						
 						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_help">交易</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_help">
 						
 						
+							<li><a href="http://svip.tzyee.net/list/3lR2c" target="_blank"><font color="red"><i class="icon icon-lg">card_giftcard</i>&nbsp;购买充值码</font></a></li>
+						<li>
+								<a href="/user/code">
+									<i class="icon icon-lg">code</i>&nbsp;充值
+								</a>
+							</li>
 							<li>
 								<a href="/user/shop">
 									<i class="icon icon-lg">shop</i>&nbsp;商店
@@ -327,15 +331,6 @@
 							</li>
 							
 							<li><a href="/user/bought"><i class="icon icon-lg">shopping_cart</i>&nbsp;购买记录</a></li>
-							
-							
-
-
-							<li>
-								<a href="/user/code">
-									<i class="icon icon-lg">code</i>&nbsp;充值
-								</a>
-							</li>
 						</ul>
 						
 						{if $user->isAdmin()}
