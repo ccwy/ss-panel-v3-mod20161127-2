@@ -55,12 +55,15 @@
 								<th>等级</th>
 								<th>群组</th>
 								<th>余额</th>
-                                <th>最后在线时间</th>
-                                <th>最后签到时间</th>								
-								<th>注册时间和IP</th>
+                                
 								<th>等级到期时间</th>
+                               	<th>账号到期时间</th>
+								<th>注册时间和IP</th>
                                 <th>已用流量/总流量</th>
-								<th>今日流量</th>								
+								<th>今日流量</th>
+								
+								<th>最后在线时间</th>
+								<th>最后签到时间</th>
 								<th>端口</th>
 								<th>加密方式</th>
 								<th>在线 IP</th>
@@ -82,7 +85,7 @@
 								</td>
 								
                                 <td>{$user->email}</td>
-                                
+				
 								{if $user->enable==1}
                                 <td>可用</td>
 								{else}
@@ -91,12 +94,15 @@
                                <td>{$user->class}</td>
 							<td>{$user->node_group}</td>
 							<td>{$user->money}</td>
-                            <td>{$user->lastSsTime()}</td>
-                            <td>{$user->lastCheckInTime()}</td>							
-							<th>{$user->reg_date}<br>{$user->reg_ip}　{$regloc[$user->id]}</th>
+                                                      						
 						    <td>{$user->class_expire}</td>
+							<td>{$user->expire_in}</td>
+							<th>{$user->reg_date}<br>{$user->reg_ip}　{$regloc[$user->id]}</th>
                             <td>{$user->usedTraffic()}/{$user->enableTraffic()}</td>
-			                <td>{(($user->u+$user->d)-$user->last_day_t)/1024/1024}MB</td>							
+			                <td>{(($user->u+$user->d)-$user->last_day_t)/1024/1024}MB</td>
+							
+							<td>{$user->lastSsTime()}</td> 
+							<td>{$user->lastCheckInTime()}</td>	
 							<td>{$user->port}</td>
 					        <td>{$user->method}</td>
 							<td>{foreach $userip[$user->id] as $singleip => $location}{$singleip} {$location}<br>{/foreach}</td>
