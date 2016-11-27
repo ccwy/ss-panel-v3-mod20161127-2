@@ -266,7 +266,7 @@ $System_Config['enable_analytics_code']='false';
 $System_Config['enable_alipay']='true';
 
 #是否启用捐赠相关功能
-$System_Config['enable_donate']='true';
+$System_Config['enable_donate']='false';
 
 
 
