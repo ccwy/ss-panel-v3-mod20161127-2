@@ -28,7 +28,17 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										<p class="card-heading">系统中最新公告</p>
+										{if $user->class>=2}
+											<dt>隐藏备用网址1：<a href="http://www.lgrui.gq">http://www.ddd</a></dt>
+									{/if}
+									
+									{if $user->class>=4}
+											<dt>隐藏备用网址2：<a href="http://www.yxge.cf">http://www.ddd</a></dt>
+									{/if}
+									
+									{if $user->class>=6}
+											<dt>隐藏备用网址3：<a href="http://www.fryhgd.ml">http://www.ddd</a></dt>
+									{/if}
 										
 										{if $ann != null}
 										<p>{$ann->content}</p>
