@@ -179,7 +179,7 @@ $System_Config['jump_delay']='1800';
 
 
 #是否启用邀请码注册
-$System_Config['enable_invite_code']='true';
+$System_Config['enable_invite_code']='false';
 
 #是否启用邮箱验证码
 $System_Config['enable_email_verify']='false';
