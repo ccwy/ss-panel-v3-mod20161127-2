@@ -25,10 +25,10 @@ $System_Config['mailDriver'] = 'mailgun';   // mailgun or smtp
 
 // 用户签到设置
 $System_Config['checkinMin'] = '1';       // 签到最少流量 单位MB
-$System_Config['checkinMax'] = '120';       // 签到最多流量
+$System_Config['checkinMax'] = '1';       // 签到最多流量
 
 //
-$System_Config['defaultTraffic'] = '5';      // 用户初始流量 单位GB
+$System_Config['defaultTraffic'] = '500';      // 用户初始流量 单位GB
 
 // 注册后获得的邀请码数量
 $System_Config['inviteNum'] = '0';
@@ -83,7 +83,7 @@ $System_Config['enable_paymentwall']='false';
 
 
 #用户过期时间，在注册时设置。（天）
-$System_Config['user_expire_in_default']='999';
+$System_Config['user_expire_in_default']='1';
 
 #Radius数据库设置
 $System_Config['radius_db_host']='';
@@ -221,22 +221,22 @@ $System_Config['enable_login_bind_ip']='false';
 $System_Config['enable_class_expire_reset']='true';
 
 #等级到期时重置为的流量值，GB
-$System_Config['enable_class_expire_reset_traffic']='3';
+$System_Config['enable_class_expire_reset_traffic']='0';
 
 #账户到期时是否重置流量
-$System_Config['enable_account_expire_reset']='false';
+$System_Config['enable_account_expire_reset']='true';
 
 #账户到期时重置为的流量值，GB
 $System_Config['enable_account_expire_reset_traffic']='0';
 
 #购买时是否重置流量
-$System_Config['enable_bought_reset']='false';
+$System_Config['enable_bought_reset']='true';
 
 #账户到期之后是否会删除账户
-$System_Config['enable_account_expire_delete']='false';
+$System_Config['enable_account_expire_delete']='true';
 
 #账户到期几天之后会删除账户
-$System_Config['enable_account_expire_delete_days']='0';
+$System_Config['enable_account_expire_delete_days']='2';
 
 #验证码相关设置，自己去 Geetest.com 申请
 $System_Config['geetest_id']='';
