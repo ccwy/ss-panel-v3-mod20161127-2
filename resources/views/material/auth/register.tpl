@@ -12,7 +12,7 @@
 							<div class="card-main">
 								<div class="card-header">
 									<div class="card-inner">
-										<h1 class="card-heading">本站为付费站，注册后需付费才可见节点，注册即代表你同意并接受本站服务条款。</h1>
+										<h1 class="card-heading">本站为付费站，注册后需付费才可见节点，注册即代表你同意并接受本站服务条款(TOS)。</h1>
 									</div>
 								</div>
 								<div class="card-inner">
