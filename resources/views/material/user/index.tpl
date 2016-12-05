@@ -31,15 +31,15 @@
 									<div class="card-inner margin-bottom-no">
 									<h5><font color="red">置顶公告：云霄阁2号站高级VIP会员用户可联系管理员申请开通云霄阁1号站无限流量使用优惠，无限流量有效期与高级VIP会员有效期相同，无限流量期间只要不下载BT，随便玩。</font></h5>	
 									{if $user->class>=2}
-											<dt>隐藏备用网址1：<a href="http://www.lgrui.gq">http://www.lgrui.gq</a></dt>
+											<dt>隐藏备用网址1：<a href="http://www.dddd">http://www.dddd</a></dt>
 									{/if}
 									
 									{if $user->class>=4}
-											<dt>隐藏备用网址2：<a href="http://www.yxge.cf">http://www.yxge.cf</a></dt>
+											<dt>隐藏备用网址2：<a href="http://www.gggx">http://www.ggggf</a></dt>
 									{/if}
 									
 									{if $user->class>=6}
-											<dt>隐藏备用网址3：<a href="http://www.fryhgd.ml">http://www.fryhgd.ml</a></dt>
+											<dt>隐藏备用网址3：<a href="http://www.gdsfds">http://www.fddssfd</a></dt>
 									{/if}
 									
 										{if $ann != null}
