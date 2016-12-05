@@ -13,6 +13,7 @@
 
 
 
+
 	<main class="content">
 		<div class="content-header ui-content-header">
 			<div class="container">
@@ -28,18 +29,19 @@
 							<div class="card">
 								<div class="card-main">
 									<div class="card-inner margin-bottom-no">
-										{if $user->class>=2}
-											<dt>隐藏备用网址1：<a href="http://www.ddd">http://www.ddd</a></dt>
+									<h5><font color="red">置顶公告：云霄阁2号站高级VIP会员用户可联系管理员申请开通云霄阁1号站无限流量使用优惠，无限流量有效期与高级VIP会员有效期相同，无限流量期间只要不下载BT，随便玩。</font></h5>	
+									{if $user->class>=2}
+											<dt>隐藏备用网址1：<a href="http://www.lgrui.gq">http://www.lgrui.gq</a></dt>
 									{/if}
 									
 									{if $user->class>=4}
-											<dt>隐藏备用网址2：<a href="http://www.dddd">http://www.ddd</a></dt>
+											<dt>隐藏备用网址2：<a href="http://www.yxge.cf">http://www.yxge.cf</a></dt>
 									{/if}
 									
 									{if $user->class>=6}
-											<dt>隐藏备用网址3：<a href="http://www.ddd">http://www.ddd</a></dt>
+											<dt>隐藏备用网址3：<a href="http://www.fryhgd.ml">http://www.fryhgd.ml</a></dt>
 									{/if}
-										
+									
 										{if $ann != null}
 										<p>{$ann->content}</p>
 										{/if}
@@ -101,15 +103,26 @@
 											{if $user->class==6}
 											<dt>等级：<font color="blue">月付高级VIP会员</font></dt>
 											{/if}
-											
-											{if $user->class==7}
-											<dt>等级：<font color="blue">特殊端口会员</font></dt>
-											{/if}											
 											{if $user->class==8}
-											<dt>等级：<font color="blue">特殊端口会员</font></dt>
+											<dt>等级：<font color="blue">月付高级VIP会员</font></dt>
 											{/if}
 											
 											{if $user->class==10}
+											<dt>等级：<font color="blue">高级VIP会员</font></dt>
+											{/if}
+											
+											{if $user->class==11}
+											<dt>等级：<font color="blue">30天高级VIP会员不限流量使用</font></dt>
+											{/if}
+											
+											{if $user->class==13}
+											<dt>等级：<font color="blue">特殊端口会员</font></dt>
+											{/if}											
+											{if $user->class==14}
+											<dt>等级：<font color="blue">特殊端口会员</font></dt>
+											{/if}
+											
+											{if $user->class==16}
 											<dt>等级：<font color="blue">钻石VIP会员</font></dt>
 											{/if}
 											
@@ -249,7 +262,7 @@
 												
 												<dt>混淆协议：{$user->protocol}</dt>
 												
-												<dt>协议参数：{$user->protocol_param}</dt>
+											
 												
 												<dt>混淆方式：{$user->obfs}</dt>
 												
