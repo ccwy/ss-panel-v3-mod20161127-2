@@ -31,15 +31,15 @@
 									<div class="card-inner margin-bottom-no">
 									<h5><font color="red">置顶公告：云霄阁2号站高级VIP会员用户可联系管理员申请开通云霄阁1号站无限流量使用优惠，无限流量有效期与高级VIP会员有效期相同，无限流量期间只要不下载BT，随便玩。</font></h5>	
 									{if $user->class>=2}
-											<dt>隐藏备用网址1：<a href="http://www.dddd">http://www.dddd</a></dt>
+											<dt>隐藏备用网址1：<a href="http://www">http://wwww</a></dt>
 									{/if}
 									
 									{if $user->class>=4}
-											<dt>隐藏备用网址2：<a href="http://www.gggx">http://www.ggggf</a></dt>
+											<dt>隐藏备用网址2：<a href="http://wwww">http://w</a></dt>
 									{/if}
 									
 									{if $user->class>=6}
-											<dt>隐藏备用网址3：<a href="http://www.gdsfds">http://www.fddssfd</a></dt>
+											<dt>隐藏备用网址3：<a href="http://www.w>http://www.w</a></dt>
 									{/if}
 									
 										{if $ann != null}
@@ -218,14 +218,15 @@
 									<div class="card-inner margin-bottom-no">
 										<p class="card-heading">签到获取流量，签不签到没啥意义。。。</p>
 											
-										
+										    <p>本站不需要你经常签到，只管使劲用就行，所以签不签到没啥意义。。。</p>
+											
 											<p>每天可以签到一次。您可以点击按钮或者摇动手机来签到。</p>
 											
 											<p>每次签到可以获取{$config['checkinMin']}~{$config['checkinMax']}MB流量。</p>
 																						
 											<p>上次使用时间：<code>{$user->lastSsTime()}</code></p>
 
-											<p>上次签到时间：<code>{$user->lastCheckInTime()}</code></p>
+											
 											
 											<p id="checkin-msg"></p>
 											
