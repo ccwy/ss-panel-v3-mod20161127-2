@@ -47,7 +47,7 @@
 						{$users->render()}
                         <table class="table">
                             <tr>
-								<th>操作</th>
+			    <th>操作</th>
                                 <th>ID</th>
 								<th>用户名(备注)</th> 
 								<th>邮箱</th>                                
@@ -69,7 +69,6 @@
 								<th>在线 IP</th>
 								<th>联络方式</th>								
                                 <th>邀请者</th>
-                                
                             </tr>
                             {foreach $users as $user}
                             <tr>
@@ -84,6 +83,7 @@
 								{/if}
 								</td>
 								
+                               
                                 <td>{$user->email}</td>
 				
 								{if $user->enable==1}
@@ -136,8 +136,8 @@
                         {$users->render()}
 					</div>
 					
-					<div aria-hidden="true" class="modal fade" id="delete_modal" role="dialog" tabindex="-1">
-						<div class="modal-dialog">
+					<div aria-hidden="true" class="modal modal-va-middle fade" id="delete_modal" role="dialog" tabindex="-1">
+						<div class="modal-dialog modal-xs">
 							<div class="modal-content">
 								<div class="modal-heading">
 									<a class="modal-close" data-dismiss="modal">×</a>
