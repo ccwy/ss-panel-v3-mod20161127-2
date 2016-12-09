@@ -25,7 +25,7 @@
 					<div class="card">
 						<div class="card-main">
 							<div class="card-inner">
-							<font color="red">
+								<font color="red">
 								<p>1，系统中所有商品列表，您购买等级类的商品时有效期会从当前时间开始计算；
 								<br>2，购买商品会自动重置您的流量为商品所标明流量，不同同等级购买会重置流量及等级到期时间；
 								<br>3，本站为纯付费站，等级到期后会自动重置为0GB。如需要免费节点请到云霄阁1号。</p>
@@ -75,9 +75,9 @@
 						{$shops->render()}
 					</div>
 					
-
-					<div aria-hidden="true" class="modal fade" id="coupon_modal" role="dialog" tabindex="-1">
-						<div class="modal-dialog">
+					
+					<div aria-hidden="true" class="modal modal-va-middle fade" id="coupon_modal" role="dialog" tabindex="-1">
+						<div class="modal-dialog modal-xs">
 							<div class="modal-content">
 								<div class="modal-heading">
 									<a class="modal-close" data-dismiss="modal">×</a>
@@ -97,8 +97,8 @@
 					</div>
 					
 					
-					<div aria-hidden="true" class="modal fade" id="order_modal" role="dialog" tabindex="-1">
-						<div class="modal-dialog">
+					<div aria-hidden="true" class="modal modal-va-middle fade" id="order_modal" role="dialog" tabindex="-1">
+						<div class="modal-dialog modal-xs">
 							<div class="modal-content">
 								<div class="modal-heading">
 									<a class="modal-close" data-dismiss="modal">×</a>
