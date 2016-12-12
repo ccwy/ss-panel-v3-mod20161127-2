@@ -25,11 +25,12 @@
 					<div class="card">
 						<div class="card-main">
 							<div class="card-inner">
-								<font color="red">
+								<font color="blue">
 								<p>1，系统中所有商品列表，您购买等级类的商品时有效期会从当前时间开始计算；
 								<br>2，购买商品会自动重置您的流量为商品所标明流量，不同同等级购买会重置流量及等级到期时间；
 								<br>3，本站为纯付费站，等级到期后会自动重置为0GB。如需要免费节点请到云霄阁1号。</p>
-								<p>当前余额：{$user->money} 元</p>
+								<p>当前余额：{$user->money} 元   </font>	      
+								<br>余额不足？  您可以 <a href="/user/code">点我充值</a> 余额到账户。</p>
 							</font>	
 							</div>
 						</div>
