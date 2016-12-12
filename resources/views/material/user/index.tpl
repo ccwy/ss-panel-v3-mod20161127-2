@@ -73,7 +73,7 @@
 											{if $user->enable==1}
 										    <dt>状态：<font color="blue">正常</font></dt>	
 										    {else}
-										    <dt>状态：<font color="red">禁用，无法使用任何节点，如有疑问请联系管理员</font></dt>	
+										     <dt>状态：<font color="blue">你因违反本站 <a href="/tos">服务条款(TOS)</a> ，已被禁用账号，不能看见和使用任何节点，如有疑问请联系管理员</font></dt>	
 										    {/if}
 												
 											<dt>余额：<font color="blue">{$user->money} 元</font></dt>	
@@ -81,7 +81,7 @@
 										
 									
 											{if $user->class==0}
-											<dt>等级：<font color="blue">账号未激活，你看不到节点，请充值后到商店购买套餐来激活账号或联系管理员</font></dt>
+											<dt>等级：<font color="blue">账号未激活，请充值后到商店购买套餐来激活账号或联系管理员</font></dt>
 											{/if}
 											{if $user->class==1}
 											<dt>等级：<font color="blue">老用户</font></dt>
