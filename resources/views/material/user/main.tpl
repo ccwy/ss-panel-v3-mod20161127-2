@@ -284,6 +284,7 @@
 						</ul>
 						
 						
+						{if $user->class>=2 &&$user->enable==1}			
 						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_use">使用</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_use">
 							<li>
@@ -306,6 +307,38 @@
 								</a>
 							</li>
 						</ul>
+						
+					
+						
+						{else}	
+						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_use">节点列表</a>
+						<ul class="menu-collapse collapse in" id="ui_menu_use">
+						
+						<li>
+								<a href="/user/">
+									<i class="icon icon-lg">router</i>&nbsp;节点不可见，请激活账户
+								</a>
+							</li>
+					
+
+							<li><a href="http://svip.tzyee.net/list/3lR2c" target="_blank"><i class="icon icon-lg">card_giftcard</i>&nbsp;点我购买充值码，不能挂代理</a></li>
+
+							<li>
+								<a href="/user/code">
+									<i class="icon icon-lg">traffic</i>&nbsp;点我使用充值卡
+								</a>
+							</li>
+							
+							<li>
+								<a href="/user/shop">
+									<i class="icon icon-lg">router</i>&nbsp;点我购买套餐激活账户
+								</a>
+							</li>
+							
+						
+					
+						</ul>
+						{/if}
 
 						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_detect">审计</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_detect">
@@ -313,30 +346,14 @@
 							<li><a href="/user/detect/log"><i class="icon icon-lg">assignment_late</i>&nbsp;审计记录</a></li>
 						</ul>
 						
-						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_trade">帮助</a>
-						<ul class="menu-collapse collapse in" id="ui_menu_trade">
-							{if $config['enable_wecenter']=='true'}
-							<li>
-								<a href="{$config["wecenter_url"]}" target="_blank">
-									<i class="icon icon-lg">help</i>&nbsp;问答系统
-								</a>
-							</li>
-							{/if}
-							
-							<li>
-								<a href="/user/ticket">
-									<i class="icon icon-lg">question_answer</i>&nbsp;工单系统
-								</a>
-							</li>
-						</ul>
-
+						
 						
 						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_help">交易</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_help">
 						
 						
 							
-							<li><a href="http://svip.tzyee.net/list/3lR2c" target="_blank"><font color="red"><i class="icon icon-lg">card_giftcard</i>&nbsp;购买充值码</font></a></li>
+							<li><a href="http://svip.tzyee.net/list/3lR2c" target="_blank"><font color="red"><i class="icon icon-lg">card_giftcard</i>&nbsp;购买充值码点我</font></a></li>
 						<li>
 								<a href="/user/code">
 									<i class="icon icon-lg">code</i>&nbsp;充值
