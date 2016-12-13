@@ -31,15 +31,15 @@
 									<div class="card-inner margin-bottom-no">
 									<h5><font color="red">置顶公告：云霄阁2号站高级VIP会员用户可联系管理员申请开通云霄阁1号站无限流量使用优惠，无限流量有效期与高级VIP会员有效期相同，无限流量期间只要不下载BT，随便玩。</font></h5>	
 									{if $user->class>=2}
-											<dt>隐藏备用网址1：<a href="http://www">http://wwww</a></dt>
+											<dt>隐藏备用网址1：<a href="http://www.">http://www.</a></dt>
 									{/if}
 									
 									{if $user->class>=4}
-											<dt>隐藏备用网址2：<a href="http://wwww">http://w</a></dt>
+											<dt>隐藏备用网址2：<a href="http://www.">http://www.</a></dt>
 									{/if}
 									
 									{if $user->class>=6}
-											<dt>隐藏备用网址3：<a href="http://www.w>http://www.w</a></dt>
+											<dt>隐藏备用网址3：<a href="http://www.">http://www.</a></dt>
 									{/if}
 									
 										{if $ann != null}
@@ -73,8 +73,9 @@
 											{if $user->enable==1}
 										    <dt>状态：<font color="blue">正常</font></dt>	
 										    {else}
-										     <dt>状态：<font color="blue">你因违反本站 <a href="/tos">服务条款(TOS)</a> ，已被禁用账号，不能看见和使用任何节点，如有疑问请联系管理员</font></dt>	
+										   <dt>状态：<font color="blue">你因违反本站 <a href="/tos">服务条款(TOS)</a> ，已被禁用账号，不能看见和使用任何节点，如有疑问请联系管理员</font></dt>	
 										    {/if}
+												
 												
 											<dt>余额：<font color="blue">{$user->money} 元</font></dt>	
 
@@ -107,13 +108,23 @@
 											<dt>等级：<font color="blue">月付高级VIP会员</font></dt>
 											{/if}
 											
+											{if $user->class==7}
+											<dt>等级：<font color="blue">月付高级VIP会员</font></dt>
+											{/if}
+											
+											{if $user->class==9}
+											<dt>等级：<font color="blue">季付高级VIP会员</font></dt>
+											{/if}
+											
+											
 											{if $user->class==10}
-											<dt>等级：<font color="blue">高级VIP会员</font></dt>
+											<dt>等级：<font color="blue">半年高级VIP会员</font></dt>
 											{/if}
 											
 											{if $user->class==11}
-											<dt>等级：<font color="blue">30天高级VIP会员不限流量使用</font></dt>
+											<dt>等级：<font color="blue">年付高级VIP会员</font></dt>
 											{/if}
+											
 											
 											{if $user->class==13}
 											<dt>等级：<font color="blue">特殊端口会员</font></dt>
