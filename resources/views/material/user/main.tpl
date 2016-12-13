@@ -321,7 +321,7 @@
 						
 						<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">shop</i>&nbsp;节点不可见，
+									<i class="icon icon-lg">shop</i>&nbsp;节点不可见
 								</a>
 							</li>
 					
@@ -352,7 +352,7 @@
 						
 						
 							
-							<li><a href="http://svip.tzyee.net/list/3lR2c" target="_blank"><font color="red"><i class="icon icon-lg">card_giftcard</i>&nbsp;购买充值码点我</font></a></li>
+							<li><a href="http://svip.tzyee.net/list/3lR2c" target="_blank"><font color="red"><i class="icon icon-lg">card_giftcard</i>&nbsp;购买充值码</font></a></li>
 						<li>
 								<a href="/user/code">
 									<i class="icon icon-lg">code</i>&nbsp;充值
