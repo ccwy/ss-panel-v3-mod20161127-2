@@ -285,7 +285,7 @@
 						
 						
 						{if $user->class>=2 &&$user->enable==1}			
-						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_use">使用</a>
+						<a class="waves-attach" data-toggle="collapse" href="#ui_menu_use">节点列表</a>
 						<ul class="menu-collapse collapse in" id="ui_menu_use">
 							<li>
 								<a href="/user/node">
@@ -294,6 +294,11 @@
 							</li>
 
 							
+							<li>
+								<a href="https://www.rickh.ga/user/node">
+									<i class="icon icon-lg">router</i>&nbsp;1站免费节点
+								</a>
+							</li>
 
 							<li>
 								<a href="/user/trafficlog">
@@ -315,23 +320,17 @@
 						<ul class="menu-collapse collapse in" id="ui_menu_use">
 						
 						<li>
-								<a href="/user/">
-									<i class="icon icon-lg">router</i>&nbsp;节点不可见，请激活账户
+								<a href="/user/shop">
+									<i class="icon icon-lg">shop</i>&nbsp;节点不可见，
 								</a>
 							</li>
 					
 
-							<li><a href="http://svip.tzyee.net/list/3lR2c" target="_blank"><i class="icon icon-lg">card_giftcard</i>&nbsp;点我购买充值码，不能挂代理</a></li>
-
-							<li>
-								<a href="/user/code">
-									<i class="icon icon-lg">traffic</i>&nbsp;点我使用充值卡
-								</a>
-							</li>
+							
 							
 							<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">router</i>&nbsp;点我购买套餐激活账户
+									<i class="icon icon-lg">shop</i>&nbsp;请激活账户
 								</a>
 							</li>
 							
