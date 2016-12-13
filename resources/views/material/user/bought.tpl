@@ -22,7 +22,8 @@
 					<div class="card">
 						<div class="card-main">
 							<div class="card-inner">
-								<p>系统中您的购买记录。</p>
+								<p>系统中您的购买记录。
+								<br>没有记录？没关系，您可以 <a href="/user/shop">点我到商店</a> 购买套餐就有了。</p>
 							</div>
 						</div>
 					</div>
