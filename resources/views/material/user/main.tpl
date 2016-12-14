@@ -295,7 +295,7 @@
 
 							
 							<li>
-								<a href="https://www.rickh.ga/user/node">
+								<a href="https://www.rickh.ga/user/node" target="_blank">
 									<i class="icon icon-lg">router</i>&nbsp;1站免费节点
 								</a>
 							</li>
@@ -321,7 +321,7 @@
 						
 						<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">shop</i>&nbsp;节点不可见
+									<i class="icon icon-lg">shop</i>&nbsp;账号未激活
 								</a>
 							</li>
 					
@@ -330,7 +330,7 @@
 							
 							<li>
 								<a href="/user/shop">
-									<i class="icon icon-lg">shop</i>&nbsp;请激活账户
+									<i class="icon icon-lg">shop</i>&nbsp;点我激活账号
 								</a>
 							</li>
 							
